@@ -23,22 +23,22 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "langgraph>=0.2.0",
-    "langchain>=0.3.0",
-    "langchain-openai>=0.2.0",
-    "langchain-community>=0.3.0",
-    "pydantic>=2.0.0",
-    "pyyaml>=6.0",
-    "python-dotenv>=1.0.0",
-    "streamlit>=1.28.0",
-    "plotly>=5.18.0",
+    "langgraph==1.2.19",
+    "langchain==1.4.8",
+    "langchain-openai==1.7.3",
+    "langchain-community==0.4.2",
+    "pydantic==2.14.2",
+    "pyyaml==6.0.3",
+    "python-dotenv==1.2.4",
+    "streamlit==1.66.1",
+    "plotly==7.1.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0",
-    "pytest-asyncio>=0.21",
-    "ruff>=0.1.0",
+    "pytest==9.2.0",
+    "pytest-asyncio==1.4.1.post1",
+    "ruff==0.17.3",
 ]
 
 [project.scripts]
